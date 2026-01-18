@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: ${SPRING_DATA_MONGODB_URI}
+      auto-index-creation: true
+
+jwt:
+  secret: "c2VjcmV0c2VjcmV0c2VjcmV0c2VjcmV0c2VjcmV0"
+  expiration-ms: 86400000
